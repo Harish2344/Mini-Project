@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-image: url('pic.webp'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;    
+
+    
+}
+
+.welcome {
+    background-color: rgb(234, 234, 243);
+    padding: 100px;
+    width: 500px;
+      
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(0.1s); 
+    padding: px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(7, 2, 2);
+    font-size: 1.2em;
+
+}
+
+h1 {
+    background: linear-gradient(90deg, #0b0124, #1c0b3d);
+    -webkit-background-clip: text;
+    color: transparent; 
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+p {
+    background: linear-gradient(90deg, #5f023b, #4a3333);
+    -webkit-background-clip: text;
+    color: transparent; 
+   
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.first,.second,.third{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+   
+}
+
+.first {
+    background-color: #e60b62;
+    color: white;
+}
+
+.first:hover {
+    background-color: #330238;
+}
+
+.second {
+    background-color: #120355;
+    color: white;
+}
+
+.second:hover {
+    background-color: #0056b3;
+}
+.third{
+    background-color: #e60b62;
+    color: white;
+}
+.third:hover{
+    background-color: #330238;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

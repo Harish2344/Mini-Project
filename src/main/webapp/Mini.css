@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+h1{
+    color: rebeccapurple;
+}
+h4{
+    color: rgba(122, 24, 68, 0.842);
+}
+p{
+    color:black
+    letter-spacing 2px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    border-color: black;border-width: 3px;
+    border-style: solid;
+   
+    background-image: linear-gradient(to left, #055252, #5f0959);
+    border-radius: 10px;
+
+}
+
+.first{
+    color: red;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+.second{
+    color: indigo;
+    text-decoration: underline;
+}
+th{
+    color: red;background-color: gray;
+}
+td{
+ background-color: aquamarine;
+}
+a{
+    color: black;
+}
+li{
+    color: rgb(189, 104, 8);
+}
+
+
+
+
+ul{
+    list-style:square ;
+    text-align: left;
+}
+li{
+    display:flex ;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    left: 30px; 
+    font-size: 30px;
+
+}
+button{
+    color: darkred;
+    font-size: 15px;
+    background-color: indianred;
+    border-radius: 10px;
+}
+a{
+    font-size: 30px;
+    
+    text-decoration: none;
+}
+a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+a:active{
+    color:chartreuse;
+    
+}
+body{
+    background-image: linear-gradient(to left, #f7f8f8, #ea9ade);
+}
